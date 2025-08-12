@@ -2,10 +2,14 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ExternalLink, Github } from "lucide-react";
+import SME from "../assets/SME.png";
+import Tixstock from "../assets/Tixstock.png";
+import ZealOverview from "../assets/ZealOverview.png";
+import CatStat from "../assets/CatStat.png";
 
 const projects = [
   {
-    src: "./src/assets/SME.png",
+    src: SME,
     title: "SME (Show Me Ethanol)",
     description:
       `• Independently handled front-end development for a custom ERP system
@@ -18,7 +22,7 @@ const projects = [
     github: "#",
   },
   {
-    src: "./src/assets/Tixstock.png",
+    src: Tixstock,
     title: "Tixstock",
     description:
       `• Focused on debugging and performance optimization
@@ -29,7 +33,7 @@ const projects = [
     github: "#",
   },
   {
-    src: "./src/assets/CatStat.png",
+    src: CatStat,
     title: "CatStat",
     description:
       `• Led front-end development of a dynamic analytics dashboard platform.
