@@ -5,7 +5,7 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    src: "src/assets/SME.png",
+    src: "./src/assets/SME.png",
     title: "SME (Show Me Ethanol)",
     description:
       `• Independently handled front-end development for a custom ERP system
@@ -18,7 +18,7 @@ const projects = [
     github: "#",
   },
   {
-    src: "src/assets/Tixstock.png",
+    src: "./src/assets/Tixstock.png",
     title: "Tixstock",
     description:
       `• Focused on debugging and performance optimization
@@ -29,7 +29,7 @@ const projects = [
     github: "#",
   },
   {
-    src: "src/assets/CatStat.png",
+    src: "./src/assets/CatStat.png",
     title: "CatStat",
     description:
       `• Led front-end development of a dynamic analytics dashboard platform.
@@ -42,7 +42,7 @@ functionality.
     github: "#",
   },
   {
-    src: "src/assets/ZealOverview.png",
+    src: "./src/assets/ZealOverview.png",
     title: "ZealOverview",
     description:
       `• Developed both back-end APIs and front-end interfaces for a CRM and productivity
