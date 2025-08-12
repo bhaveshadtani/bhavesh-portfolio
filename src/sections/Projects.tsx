@@ -46,7 +46,7 @@ functionality.
     github: "#",
   },
   {
-    src: "./src/assets/ZealOverview.png",
+    src: ZealOverview,
     title: "ZealOverview",
     description:
       `• Developed both back-end APIs and front-end interfaces for a CRM and productivity
